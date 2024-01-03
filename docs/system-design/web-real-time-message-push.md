@@ -374,7 +374,7 @@ public class WebSocketServer {
 
 ```javascript
 <script>
-    var ws = new WebSocket('ws://localhost:7777/webSocket/10086');
+    var ws = new WebSocket('ws://localhost:7777/websocket/10086');
     // 获取连接状态
     console.log('ws连接状态：' + ws.readyState);
     //监听是否连接成功
